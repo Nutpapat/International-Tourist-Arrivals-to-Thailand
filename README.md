@@ -1,5 +1,5 @@
-# ![](/img/car.png)-International-Tourist-Arrivals-to-Thailand
-<a href=""><img src="img/travel.png" width="1000px"></a>
+# ![](/img/tr2.png)-International-Tourist-Arrivals-to-Thailand
+<a href=""><img src="img/travel.PNG" width="1000px"></a>
  <br> - PROJECT PROBLEM SOLVING IN INFORMATION TECHNOLOGY 1/2560
 
 ## ![](/img/house.png)Introduction
