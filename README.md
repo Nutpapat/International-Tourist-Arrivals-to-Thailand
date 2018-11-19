@@ -1,4 +1,4 @@
-# ![](/img/tr2.png)-International-Tourist-Arrivals-to-Thailand
+# ![](/img/tr3.png)International-Tourist-Arrivals-to-Thailand
 <a href=""><img src="img/travel.PNG" width="1000px"></a>
  <br> - PROJECT PROBLEM SOLVING IN INFORMATION TECHNOLOGY 1/2560
 
