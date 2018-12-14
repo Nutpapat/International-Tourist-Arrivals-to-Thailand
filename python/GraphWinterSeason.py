@@ -1,13 +1,13 @@
 """Number_of_foreigner_travel_to_thailand_in_winter_season"""
 import pandas as pd
-import matplotlib.pyplot as plt
+import pygal
 def main():
     """7 land mass foreigner travel to thailand between 2013 to 2018 in winter_season"""
-    lis_y = []
-    lis_x = [2013, 2014, 2015, 2016, 2017, 2018]
-    check = 0
     data = pd.read_csv('data.csv')
-    group = data.groupby(['Season'])
+    lis_y = []
+    group = data.groupby(['Season'])    
+    lis_x = [2013, 2014, 2015, 2016, 2017, 2018]
+    check = 0    
     dataframe = group.get_group('winter')
     year2013 = dataframe[dataframe['Year'] == 2013]
     year2014 = dataframe[dataframe['Year'] == 2014]
@@ -29,26 +29,20 @@ def main():
     lis_y = []
     lis_africa = af(year2013, year2014, year2015, year2016, year2017, year2018, lis_y, check)
     lis_y = []
-    ax = plt.gca()
-    ax.set_title('ปริมาณชาวต่างชาติที่เข้าประเทศไทยตอนฤดูหนาวช่วง 6 ปี',fontname='JasmineUPC',fontsize='20')
-    ax.set_xlabel('ปี',fontname='JasmineUPC',fontsize='20')
-    ax.set_ylabel('จำนวนชาวต่างชาติ (หน่วย10ล้าน)',fontname='JasmineUPC',fontsize='20')
-    ax.set_ylim([0, 10000000])
-    plt.text(2013,9400000,'eastasia', color="mediumblue")
-    plt.text(2013,9000000,'europe', color="magenta")
-    plt.text(2013,8600000,'america', color="forestgreen")
-    plt.text(2013,8200000,'oceania', color="crimson")
-    plt.text(2013,7800000,'middleeast', color="chocolate")
-    plt.text(2013,7400000,'africa', color="black")
-    plt.text(2013,7000000,'southasia', color="darkviolet")
-    plt.stackplot(lis_x, lis_eastasia, color="mediumblue")#สีน้ำเงิน
-    plt.stackplot(lis_x, lis_europe, color="magenta")#สีม่วง
-    plt.stackplot(lis_x, lis_america, color="forestgreen")#สีเขียว
-    plt.stackplot(lis_x, lis_southasia, color="darkviolet")#ม่วงเข้ม
-    plt.stackplot(lis_x, lis_oceania, color="crimson")#สีแดง
-    plt.stackplot(lis_x, lis_middleeast, color="chocolate")#สีน้ำตาล
-    plt.stackplot(lis_x, lis_africa, color="black")#สีดำ
-    plt.show()
+    chart = pygal.Line(fill=True, width=1000, label_rotation=90)
+    chart.y_title ='GraphWinterSeason 6 Year'
+    chart.x_title = 'Year'
+    chart.x_labels = map(str, range(2013, 2019))
+    chart.set_ylabel = 'จำนวนชาวต่างชาติ (หน่วย10ล้าน)'
+    chart.y_labels = [10000, 1000000, 2000000, 3000000, 4000000, 5000000, 6000000, 7000000, 8000000, 9000000, 10000000]
+    chart.add("Eastasia", lis_eastasia)
+    chart.add("Europe", lis_europe)
+    chart.add("America", lis_america)
+    chart.add("Southasia", lis_southasia)
+    chart.add("Oceania", lis_oceania)
+    chart.add("Middleeast", lis_middleeast)
+    chart.add("Africa", lis_africa)
+    chart.render_to_file('GraphWinterSeason.svg')
 def af(year2013, year2014, year2015, year2016, year2017, year2018, var, check):
     """return africa point (list)"""
     for i in year2013.Africa:
