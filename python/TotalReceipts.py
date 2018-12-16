@@ -29,7 +29,6 @@ def main():
     chart.title = 'TOTAL RECEIPTS ALL OF EACH LANDMASS (2013 to 2018)'
     chart.legend_at_bottom = True
     chart.legend_box_size = 20
-    chart.legend_at_bottom_columns = 4
     chart.add("Eastasia", lis_eastasia)
     chart.add("Europe", lis_europe)
     chart.add("America", lis_america)
