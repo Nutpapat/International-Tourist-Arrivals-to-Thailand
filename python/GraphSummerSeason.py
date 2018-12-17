@@ -30,7 +30,7 @@ def main():
     lis_africa = af(year2013, year2014, year2015, year2016, year2017, year2018, lis_y, check)
     lis_y = []
     chart = pygal.Line(fill=True, width=1000, label_rotation=90)
-    chart.y_title ='จำนวนชาวต่างชาติ (หน่วย10ล้าน)'
+    chart.y_title ='quantity of foreigner (ten million)'
     chart.x_title = 'Year'
     chart.x_labels = map(str, range(2013, 2019))
     chart.y_labels = [10000, 1000000, 2000000, 3000000, 4000000, 5000000, 6000000, 7000000, 8000000, 9000000, 10000000]
