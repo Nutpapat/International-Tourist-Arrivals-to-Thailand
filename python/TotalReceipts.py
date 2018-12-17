@@ -1,7 +1,7 @@
 """ TOURISM RECEIPTS FROM INTERNATIONAL TOURIST ARRIVALS """
 import pandas as pd
 import pygal
-from pygal.style import DarkColorizedStyle
+from pygal.style import NeonStyle
 def main():
     """ Receipts from 7 foreign tourists coming to Thailand between 2013 to 2018 """
     lis_y = []
@@ -25,8 +25,10 @@ def main():
     lis_y = []
     lis_africa = af(total, lis_y, check)
     lis_y = []
-    chart = pygal.Pie(inner_radius=.45, style=DarkColorizedStyle)
+    chart = pygal.HorizontalBar(inner_radius=.45, style=NeonStyle)
     chart.title = 'TOTAL RECEIPTS ALL OF EACH LANDMASS (2013 to 2018)'
+    chart.x_title = 'Income from tourists (Million Baht)'
+    chart.y_title ='Landmass'
     chart.legend_at_bottom = True
     chart.legend_box_size = 20
     chart.add("Eastasia", lis_eastasia)
@@ -36,7 +38,7 @@ def main():
     chart.add("Oceania", lis_oceania)
     chart.add("Middleeast", lis_middleeast)
     chart.add("Africa", lis_africa)
-    chart.render_to_file('PieTotalReceips.svg')
+    chart.render_to_file('BarTotalReceips.svg')
 def ea(total, var, check):
     """return east_asia point (list)"""
     for i in total.EastAsia:
