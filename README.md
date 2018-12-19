@@ -2,12 +2,12 @@
 <a href=""><img src="img/travel.PNG" width="1000px"></a><br>
  <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h2>PROJECT PROBLEM SOLVING IN INFORMATION TECHNOLOGY 1/2560</h2>
 # ผลการดำเนินการ 
-Start : 11 Nov 2018
+Start : 11 Nov 2018<br>
 Complete : 19 Dec 2018
 ## วิดิโอ Present
 - https://www.youtube.com/watch?v=7enYgFP7Dt8
 ## เว็ป Present
-- https://nutpapat.github.io/International-Tourist-Arrivals-to-Thailand/docs/?fbclid=IwAR2Q5-e3dRDSfGfywA3VLR0WLurQJD5ycQ_XVECtvSbOCshMXm3bXK5aSVY
+- https://nutpapat.github.io/International-Tourist-Arrivals-to-Thailand/docs/?fbclid=IwAR2Q5-e3dRDSfGfywA3VLR0WLurQJD5ycQ_XVECtvSbOCshMXm3bXK5aSVY <br>
 
 
 ## ![](/img/house.png)คำอธิบายโปรเจค
