@@ -2,7 +2,7 @@
 <a href=""><img src="img/travel.PNG" width="1000px"></a><br>
  <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h2>PROJECT PROBLEM SOLVING IN INFORMATION TECHNOLOGY 1/2560</h2>
 # ผลการดำเนินการ 
-Start : 11 Nov 2018<br>
+Start : 14 Nov 2018<br>
 Complete : 19 Dec 2018
 ## วิดิโอ Present
 - https://www.youtube.com/watch?v=7enYgFP7Dt8
