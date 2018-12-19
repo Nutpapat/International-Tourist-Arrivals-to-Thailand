@@ -1,11 +1,14 @@
 # ![](/img/tr3.png)International-Tourist-Arrivals-to-Thailand
 <a href=""><img src="img/travel.PNG" width="1000px"></a><br>
  <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h2>PROJECT PROBLEM SOLVING IN INFORMATION TECHNOLOGY 1/2560</h2>
- 
+# ผลการดำเนินการ 
+Start : 11 Nov 2018
+Complete : 19 Dec 2018
 ## วิดิโอ Present
 - https://www.youtube.com/watch?v=7enYgFP7Dt8
 ## เว็ป Present
 - https://nutpapat.github.io/International-Tourist-Arrivals-to-Thailand/docs/?fbclid=IwAR2Q5-e3dRDSfGfywA3VLR0WLurQJD5ycQ_XVECtvSbOCshMXm3bXK5aSVY
+
 
 ## ![](/img/house.png)คำอธิบายโปรเจค
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;สวัสดีค่ะวันนี้กลุ่ม Poro so cute จะมานำเสนอการวิเคราะห์ข้อมูลในเรื่องของสถิตินักท่องเที่ยวที่เข้ามาเที่ยวในประเทศไทยตั้งแต่ปี 2013-2018 และรายได้ที่ประเทศไทยเราได้จากนักท่องเที่ยวในแต่ละประเทศ โดยเราจะวิเคราะห์ในแต่ละเดือนตั้งแต่มกราถึงธันวาว่ามีนักท่องเที่ยวตั้งแต่ปี2013-2018เข้ามาเที่ยวประเทศไทยจำนวนเท่าไหร่โดยเราจะแสดงข้อมูลออกมาเป็นทวีปว่าทวีปไหนเข้ามาเที่ยวประเทศไทยมากที่สุดและเพราะมีเหตุการณ์อะไรจึงทำให้มีนักท่องเที่ยวเข้ามาเที่ยวเป็นจำนวนมากในแต่ละเดือนและในแต่ละปีโดยเราเลือกใช้ภาษา python ในการเขียนโปรแกรมคำนวณ
